@@ -1,4 +1,41 @@
+# Meet Connect
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Features
+
+Meet Connect offers a robust video conferencing experience with the following key features:
+
+-   **Instant Meetings**: Quickly start or join video calls.
+-   **Scheduled Meetings**: Plan and schedule meetings for a later time.
+-   **Personal Room**: A dedicated, persistent meeting room for personal use.
+-   **Meeting Recordings**: Record your meetings and access them later.
+-   **Practice Section**: A dedicated area for practicing and testing video/audio setup.
+
+## Routes
+
+The application utilizes the following main routes:
+
+-   `/`: Homepage, displaying upcoming meetings and meeting creation options.
+-   `/upcoming`: View a list of all scheduled upcoming meetings.
+-   `/previous`: Access a history of past meetings.
+-   `/recordings`: Browse and manage recorded meetings.
+-   `/personal-room`: Your dedicated personal meeting room.
+-   `/meeting/[id]`: Dynamic route for individual meeting rooms.
+-   `/practice`: A dedicated page for practicing video and audio settings.
+-   `/sign-in` & `/sign-up`: Authentication routes powered by Clerk.
+
+## Technologies Used
+
+This project utilizes the following key technologies:
+
+-   **[Next.js](https://nextjs.org/)**: A React framework for building full-stack web applications.
+-   **[React](https://react.dev/)**: A JavaScript library for building user interfaces.
+-   **[TypeScript](https://www.typescriptlang.org/)**: A strongly typed superset of JavaScript that compiles to plain JavaScript.
+-   **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapidly building custom designs.
+-   **[Shadcn UI](https://ui.shadcn.com/)**: A collection of reusable components built using Radix UI and Tailwind CSS.
+-   **[Clerk](https://clerk.com/)**: A complete user management platform for React, Next.js, and the web, providing authentication and user management.
+-   **[Stream](https://getstream.io/)**: For building powerful in-app chat, messaging, and video experiences, specifically for real-time video functionalities.
 
 ## Getting Started
 
@@ -24,8 +61,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 

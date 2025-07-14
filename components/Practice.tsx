@@ -5,15 +5,15 @@ import { QnA } from '@/constants'
 // Mock data for demonstration - replace with your actual QnA import
 
 const Practice = () => {
-  const [selectedTopic, setSelectedTopic] = useState(null)
-  const [selectedQuestion, setSelectedQuestion] = useState(null)
+  const [selectedTopic, setSelectedTopic] = useState<number | null>(null)
+  const [selectedQuestion, setSelectedQuestion] = useState<number | null>(null)
 
-  const handleTopicSelect = useCallback((topicIndex : any) => {
+  const handleTopicSelect = useCallback((topicIndex : number) => {
     setSelectedTopic(topicIndex)
     setSelectedQuestion(null) // Reset question selection
   }, [])
 
-  const handleQuestionSelect = useCallback((questionIndex : any) => {
+  const handleQuestionSelect = useCallback((questionIndex : number) => {
     setSelectedQuestion(questionIndex)
   }, [])
 
